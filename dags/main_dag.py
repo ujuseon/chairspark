@@ -245,7 +245,7 @@ default_args = {
 }
 
 dag = DAG(
-    "test_process_dag",
+    "process_dag",
     default_args=default_args,
     description="DAG для обработки данных",
     schedule_interval=timedelta(days=1),
